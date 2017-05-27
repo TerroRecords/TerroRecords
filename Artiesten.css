@@ -1,0 +1,108 @@
+body {
+  background-color: white;
+  font-family: helvetica;
+  color: red;
+}
+
+#socialmedia {
+  height: 100px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: black;
+}
+
+#fb {
+  height: 50%;
+  margin-left: 10px;
+  clear: both;
+}
+
+#twitter {
+  height: 50%;
+  margin-left: 10px;
+  clear: both;
+}
+
+#insta {
+  height: 50%;
+  margin-left: 10px;
+  clear: both;
+}
+
+#toplogo {
+  height: 80px;
+  margin-left: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#navigation {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  text-align: center;
+}
+
+#navigation a {
+  text-decoration: none;
+  color: red;
+  font-weight: 900;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#navigation ul li {
+  display: inline;
+}
+
+#artiestenbox {
+  background-color: black;
+  height: 2000px;
+  width: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+#footer {
+  text-align: center;
+  font-size: 10px;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#artiestentitel {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 900;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#artiestendiv {
+  width: 950px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+#infantscreambox, #squareparadisebox, #alwaysleftbox, #dropofcomposurebox {
+  background-color: white;
+  height: 200px;
+  width: 200px;
+  float: left;
+}
+#infantscreambox, #squareparadisebox, #alwaysleftbox {
+  margin-right: 50px;
+}

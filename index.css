@@ -1,0 +1,46 @@
+body  {
+  background-color: black;
+  color: white;
+  font-family: helvetica;
+}
+
+#socialmedia {
+  height: 60px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+#fb {
+  height: 100%;
+  margin-left: 10px;
+}
+
+#twitter {
+  height: 100%;
+  margin-left: 10px;
+}
+
+#insta {
+  height: 100%;
+  margin-left: 10px;
+}
+
+#imagecontainer {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+#logohome {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  font-size: 12px;
+  text-align: center;
+}
