@@ -12,6 +12,10 @@ body {
   background-color: black;
 }
 
+#navigation ul li:nth-child(1) a {
+  text-decoration: underline;
+}
+
 #fb {
   height: 50%;
   margin-left: 10px;

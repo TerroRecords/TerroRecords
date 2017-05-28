@@ -1,0 +1,80 @@
+body {
+  background-color: white;
+  font-family: helvetica;
+  color: red;
+}
+
+#socialmedia {
+  height: 100px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: black;
+}
+
+#fb {
+  height: 50%;
+  margin-left: 10px;
+  clear: both;
+}
+
+#twitter {
+  height: 50%;
+  margin-left: 10px;
+  clear: both;
+}
+
+#insta {
+  height: 50%;
+  margin-left: 10px;
+  clear: both;
+}
+
+#toplogo {
+  height: 80px;
+  margin-left: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#navigation {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  text-align: center;
+}
+
+#navigation a {
+  text-decoration: none;
+  color: red;
+  font-weight: 900;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#navigation ul li {
+  display: inline;
+}
+
+#navigation ul li:nth-child(3) a {
+  text-decoration: underline;
+}
+
+#footer {
+  text-align: center;
+  font-size: 10px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  padding-bottom: 10px;
+}
+
+#storebg {
+  background-color: black;
+  height: 600px;
+  width: 100%;
+}

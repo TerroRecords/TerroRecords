@@ -59,25 +59,17 @@ body {
   display: inline;
 }
 
-#artiestenbox {
-  background-color: black;
-  height: 2000px;
-  width: 100%;
-  position: absolute;
-  box-sizing: border-box;
-  padding: 20px;
+#navigation ul li:nth-child(2) a {
+  text-decoration: underline;
 }
 
-#footer {
-  text-align: center;
-  font-size: 10px;
+#artiestenbox {
+  background-color: black;
+  height: 1000px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
   color: white;
-  position: absolute;
-  bottom: 10px;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #artiestentitel {
@@ -87,6 +79,7 @@ body {
   font-weight: 900;
   font-size: 20px;
   margin-bottom: 20px;
+  color: red;
 }
 
 #artiestendiv {
@@ -94,7 +87,6 @@ body {
   height: 200px;
   margin-left: auto;
   margin-right: auto;
-  position: relative;
 }
 
 #infantscreambox, #squareparadisebox, #alwaysleftbox, #dropofcomposurebox {
@@ -105,4 +97,67 @@ body {
 }
 #infantscreambox, #squareparadisebox, #alwaysleftbox {
   margin-right: 50px;
+}
+
+#infantscreambox img, #squareparadisebox img, #alwaysleftbox img, #dropofcomposurebox img {
+  width: 100%;
+}
+
+#informatieartiesten, #informatieIS, #informatiePS, #informatieAL, #informatieDC {
+  width: 65%;
+  background-color: rgba(173, 173, 173, 0.1);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  clear: both;
+  float: none;
+  overflow: auto;
+  box-sizing: border-box;
+  padding: 20px;
+
+}
+
+.displaynone {
+  display: none;
+}
+.display {
+  display: block;
+}
+
+#footer {
+  text-align: center;
+  font-size: 10px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  padding-bottom: 10px;
+}
+
+#infantscreambox:hover, #squareparadisebox:hover, #alwaysleftbox:hover, #dropofcomposurebox:hover {
+  box-sizing: border-box;
+  border: 5px solid white;
+}
+
+#SP2 {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+#informatiePS p {
+  margin-top: 20px;
+}
+
+#ISPER1, #ISPER2 {
+  height: 200px;
+  width: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-decoration: underline;
 }
