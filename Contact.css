@@ -73,8 +73,21 @@ body {
   padding-bottom: 10px;
 }
 
-#storebg {
+#contactbg {
   background-color: black;
-  height: 600px;
   width: 100%;
+  height: 700px;
+}
+
+#contactinfo {
+  width: 50%;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+
+#logocontact {
+  width: 50%;
+  height: auto;
 }
