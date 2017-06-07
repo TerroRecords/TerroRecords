@@ -2,6 +2,7 @@ body {
   background-color: white;
   font-family: helvetica;
   color: red;
+  line-height: 24px;
 }
 
 #socialmedia {
@@ -65,7 +66,7 @@ body {
 
 #artiestenbox {
   background-color: black;
-  height: 1000px;
+  height: 1100px;
   width: 100%;
   box-sizing: border-box;
   padding: 20px;
@@ -94,6 +95,8 @@ body {
   height: 200px;
   width: 200px;
   float: left;
+  box-sizing: border-box;
+  border: 5px solid white;
 }
 #infantscreambox, #squareparadisebox, #alwaysleftbox {
   margin-right: 50px;
@@ -113,7 +116,9 @@ body {
   float: none;
   overflow: auto;
   box-sizing: border-box;
+  position: relative;
   padding: 20px;
+  border: 2px solid white;
 
 }
 
@@ -136,7 +141,7 @@ body {
 
 #infantscreambox:hover, #squareparadisebox:hover, #alwaysleftbox:hover, #dropofcomposurebox:hover {
   box-sizing: border-box;
-  border: 5px solid white;
+  border: 5px solid red;
 }
 
 #SP2 {
@@ -154,6 +159,13 @@ body {
   width: 200px;
   margin-right: 20px;
   margin-bottom: 20px;
+}
+
+#ISpng, #SPpng, #DOCpng, #ALpng {
+  height: 200px;
+  width: 200px;
+  margin-top: 50px;
+  padding: 10px;
 }
 
 h2 {

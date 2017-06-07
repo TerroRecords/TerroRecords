@@ -2,6 +2,7 @@ body {
   background-color: white;
   font-family: helvetica;
   color: red;
+  line-height: 24px;
 }
 
 #socialmedia {
@@ -76,11 +77,11 @@ body {
 #contactbg {
   background-color: black;
   width: 100%;
-  height: 700px;
+  height: 800px;
 }
 
 #contactinfo {
-  width: 50%;
+  width: 30%;
   color: white;
   margin-left: auto;
   margin-right: auto;

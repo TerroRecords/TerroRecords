@@ -53,6 +53,7 @@ body {
   font-weight: 900;
   margin-left: 5px;
   margin-right: 5px;
+  padding-top: 20px;
 }
 
 #navigation ul li {
@@ -75,6 +76,123 @@ body {
 
 #storebg {
   background-color: black;
-  height: 600px;
+  height: 800px;
   width: 100%;
+}
+
+#itembox {
+  width: 60%;
+  min-height: 500px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  top: 50px;
+  position: relative;
+  color: white;
+}
+
+#itemlist {
+  width: 20%;
+  height: 100%;
+  float: left;
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  box-sizing: border-box;
+  border: 2px solid white;
+}
+
+#itemlist h3 {
+  margin-bottom: 30px;
+  margin-top: 0;
+  text-decoration: underline;
+}
+
+#infostore, #albums, #shirts, #accessoires, #rugzakken {
+  width: 70%;
+  height: 100%;
+  float: right;
+  box-sizing: border-box;
+  padding-top: 20px;
+}
+
+#itemlist ul li:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+#infostore img {
+  height: 100px;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+#infostore p {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.displaynone {
+  display: none;
+}
+
+.display {
+}
+
+#albums img {
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin-right: 10px;
+}
+
+#shirts img {
+  height: 200px;
+  float: left;
+  margin-right: 10px;
+}
+
+#rugzakken img {
+  width: 200px;
+  float: left;
+  margin-right: 10px;
+}
+
+#albums h3, #shirts h3, #accessoires h3, #rugzakken h3 {
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+#ISalbumsbox, #PSalbumsbox, #ALalbumsbox, #DOCalbumsbox {
+  width: 100%;
+  margin-top: 50px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+
+#ISalbumsbox img, #PSalbumsbox img, #ALalbumsbox img, #DOCalbumsbox img {
+  width: 40%;
+  height: auto;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+#bandnames li {
+  display: inline;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+#bandnames li:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
 }

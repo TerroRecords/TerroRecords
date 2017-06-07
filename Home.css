@@ -4,6 +4,10 @@ body {
   color: red;
 }
 
+b {
+  font-weight: 900;
+}
+
 #socialmedia {
   height: 100px;
   width: 100%;
@@ -71,13 +75,23 @@ body {
 }
 
 #afbeeldingenbox {
-  background-color: grey;
   height: 80%;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  position: relative;
-  top: 10%;
+  margin-top: 5%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 1s;
+}
+
+.homeimg1 {
+    background-image: url('homeafb1.png');
+}
+
+.homeimg2 {
+    background-image: url('homeafb2.jpg');
 }
 
 #nieuwsbox {
@@ -157,9 +171,15 @@ body {
 
 #nieuwsdoos1 h3, p {
   color: black;
+  line-height: 24px;
 }
 
-#nieuwsdoos1 h3 {
+#nieuwsdoos3 h3, p {
+  color: black;
+  line-height: 24px;
+}
+
+#nieuwsdoos1 h3, #nieuwsdoos3 h3 {
   font-weight: 900;
 }
 
